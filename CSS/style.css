@@ -1,0 +1,418 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: serif;
+    font-size: 15px;
+    line-height: 25px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.green1{
+    height: 275px;
+    width: 500px;
+    background: #006a4e;
+    border: 2px solid black;
+    position: relative;
+    margin: 50px 0px 30px 30px;
+    display: inline-block;
+}
+.red1{
+    height: 165px;
+    width: 165px;
+    border-radius: 100%;
+    background: #f42a41;
+    position: absolute;
+    top: 50px;
+    left: 28%;
+    z-index: 1;
+}
+
+.green1 .red1 img{
+    height: 125px;
+    width: 100px;
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    left: 20%;
+}
+
+.green2{
+    height: 275px;
+    width: 500px;
+    background: #006a4e;
+    border: 2px solid black;
+    position: relative;
+    margin: 50px 110px 30px 0px;
+    display: inline-block;
+    float: right;
+}
+.red2{
+    height: 165px;
+    width: 165px;
+    border-radius: 100%;
+    background: #f42a41;
+    position: absolute;
+    top: 50px;
+    left: 28%;
+    z-index: 1;
+}
+
+.flag h1{
+    font-family: sans-serif;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    background: powderblue;
+    color: black;
+    padding: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.fb{
+    width: 190px;
+    height: 38px;
+    position: fixed;
+    top: 8%;
+    right: -148.5px;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+.fb:hover{
+    right: 2.5px;
+    cursor: pointer;
+}
+
+.u{
+    width: 190px;
+    height: 38px;
+    position: fixed;
+    top: 15.5%;
+    right: -148px;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+.u:hover{
+    right: 2.5px;
+    cursor: pointer;
+}
+
+.b{
+    width: 180px;
+    height: 35px;
+    position: fixed;
+    top: 23%;
+    right: -138px;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+.b:hover{
+    right: 2.5px;
+    cursor: pointer;
+}
+
+.i{
+    width: 180px;
+    height: 38px;
+    position: fixed;
+    top: 30%;
+    right: -138px;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+.i:hover{
+    right: 2.5px;
+    cursor: pointer;
+}
+
+.l{
+    width: 180px;
+    height: 35px;
+    position: fixed;
+    top: 37.5%;
+    right: -138px;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+.l:hover{
+    right: 2.5px;
+    cursor: pointer;
+}
+
+.w{
+    width: 180px;
+    height: 42px;
+    position: fixed;
+    top: 44%;
+    right: -136px;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+.w:hover{
+    right: 2.5px;
+    cursor: pointer;
+}
+
+.t{
+    width: 180px;
+    height: 35px;
+    position: fixed;
+    top: 51.5%;
+    right: -136px;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+.t:hover{
+    right: 2.5px;
+    cursor: pointer;
+}
+
+.p{
+    width: 180px;
+    height: 35px;
+    position: fixed;
+    top: 76%;
+    right: -138px;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+.p:hover{
+    right: 2.5px;
+    cursor: pointer;
+}
+
+.tw{
+    width: 180px;
+    height: 42px;
+    position: fixed;
+    top: 82%;
+    right: -135.5px;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+.tw:hover{
+    right: 2.5px;
+    cursor: pointer;
+}
+
+.m{
+    width: 180px;
+    height: 38px;
+    position: fixed;
+    top: 90%;
+    right: -135.5px;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+.m:hover{
+    right: 2.5px;
+    cursor: pointer;
+}
+
+.social-icon{
+    width: 100%;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.social-icon li{
+    list-style: none;
+    display: inline-block;
+}
+
+.social-icon li a{
+    display: block;
+    text-align: center;
+    font-size: 26px;
+    margin: 0px 10px;
+    transition: 2s;
+}
+
+.social-icon li a .fa-facebook-square{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background: #4169E1;
+    border: 1.5px solid #4169E1;
+    color: white;
+}
+
+.social-icon li a .fa-facebook-square:hover{
+    background: white;
+    border: 1.5px solid #4169E1;
+    color: #4169E1;
+    box-shadow: 0 0 30px #4169E1;
+}
+
+.social-icon li a .fa-youtube-square{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background: #FF1E1E;
+    border: 1.5px solid #FF1E1E;
+    color: white;
+}
+
+.social-icon li a .fa-youtube-square:hover{
+    background: white;
+    border: 1.5px solid #FF1E1E;
+    color: #FF1E1E;
+    box-shadow: 0 0 30px #FF1E1E;
+}
+
+.social-icon li a .fa-behance-square{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background: black;
+    border: 1.5px solid black;
+    color: white;
+}
+
+.social-icon li a .fa-behance-square:hover{
+    background: white;
+    border: 1.5px solid black;
+    color: black;
+    box-shadow: 0 0 30px black;
+}
+
+.social-icon li a .fa-instagram{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background: #FF00FF;
+    border: 1.5px solid #FF00FF;
+    color: white;
+}
+
+.social-icon li a .fa-instagram:hover{
+    background: white;
+    border: 1.5px solid #FF00FF;
+    color: #FF00FF;
+    box-shadow: 0 0 30px #FF00FF;
+}
+
+.social-icon li a .fa-linkedin-square{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background: #1E90FF;
+    border: 1.5px solid #1E90FF;
+    color: white;
+}
+
+.social-icon li a .fa-linkedin-square:hover{
+    background: white;
+    border: 1.5px solid #1E90FF;
+    color: #1E90FF;
+    box-shadow: 0 0 30px #1E90FF;
+}
+
+.social-icon li a .fa-whatsapp{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background: #006400;
+    border: 1.5px solid #006400;
+    color: white;
+}
+
+.social-icon li a .fa-whatsapp:hover{
+    background: white;
+    border: 1.5px solid #006400;
+    color: #006400;
+    box-shadow: 0 0 30px #006400;
+}
+
+.social-icon li a .fa-twitter-square{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background: #20B2AA;
+    border: 1.5px solid #20B2AA;
+    color: white;
+}
+
+.social-icon li a .fa-twitter-square:hover{
+    background: white;
+    border: 1.5px solid #20B2AA;
+    color: #20B2AA;
+    box-shadow: 0 0 30px #20B2AA;
+}
+
+.social-icon li a .fa-pinterest-square{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background: #E7001E;
+    border: 1.5px solid #E7001E;
+    color: white;
+}
+
+.social-icon li a .fa-pinterest-square:hover{
+    background: white;
+    border: 1.5px solid #E7001E;
+    color: #E7001E;
+    box-shadow: 0 0 30px #E7001E;
+}
+
+.social-icon li a .fa-telegram{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background: #29ADD7;
+    border: 1.5px solid #29ADD7;
+    color: white;
+}
+
+.social-icon li a .fa-telegram:hover{
+    background: white;
+    border: 1.5px solid #29ADD7;
+    color: #29ADD7;
+    box-shadow: 0 0 30px #29ADD7;
+}
+
+.social-icon li a .fa-google-plus-square{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background: #DC4E41;
+    border: 1.5px solid #DC4E41;
+    color: white;
+}
+
+.social-icon li a .fa-google-plus-square:hover{
+    background: white;
+    border: 1.5px solid #DC4E41;
+    color: #DC4E41;
+    box-shadow: 0 0 30px #DC4E41;
+}
